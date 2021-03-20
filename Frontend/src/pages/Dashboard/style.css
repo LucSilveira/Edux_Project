@@ -1,0 +1,58 @@
+.dash-content{
+    display: flex;
+    justify-content: center;
+}
+
+.maps-list{
+    width: 30vw;
+    height: 90vh;
+    border-right: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.maps-list hr{
+    width: 15vw;
+    height: 0.15vh;
+    background-color: black;
+    margin-bottom: 3rem;
+}
+
+.list-item{
+    width: 25vw;
+    height: 8vh;
+    margin-bottom: 1rem;
+    padding: 1em;
+    background-color: #e6e6e6;
+}
+.list-item{
+    border: 1px solid #000000;
+    border-radius: 15px  ;
+    box-shadow: 5px 10px 8px #888888;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-dash{
+    width: 100%;
+    opacity: 0.5;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-dash h2{
+    margin-top: 1em;
+}
+
+.admin-content{
+    width: 70vw;
+    height: 90vh;
+}

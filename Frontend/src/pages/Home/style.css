@@ -1,0 +1,141 @@
+.jumbo{
+    height: 70vh;
+
+    background-image: url('https://contratempo.info/wp-content/uploads/2016/10/estudantes-sorrindo-aula.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumbo-fundo{
+    height: 70vh;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.jumbo-content{
+    color: #ffffff;
+    height: 60vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.jumbo-content h1{
+    font-size: 48px;
+}
+.jumbo-content p{
+    width: 35vw;
+    font-size: 18px;
+    margin-top: 2rem;
+    font-weight: 400;
+    text-align: center;
+}
+.jumbo-content hr{
+    width: 60vw;
+    height: 0.2vh;
+    background-color: #ffffff;
+}
+
+.button-confira{
+    width: 10vw;
+    height: 5vh;
+    margin-top: 3rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #00C2EE !important;
+}
+
+.cards-content{
+    height: 60vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards-content h2{
+    margin: 3rem 0rem;
+    font-size: 42px;
+}
+.cards-content hr{
+    width: 60vw;
+    height: 0.2vh;
+    margin-top: 5rem;
+    background-color: black;
+}
+
+.card-items{
+    height: 30vh;
+    padding: 2.5rem 0rem;
+    background-color: #f1eeee;
+    box-shadow: 5px 10px 8px #888888;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.card-items .text-cards{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.row-normal{
+    height: 50vh;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagem-style{
+    width: 345px;
+    height: 345px;
+    border-radius: 40px;
+    transform: rotate(45deg);
+    background-color: #00d65f;
+
+}
+.imagem-style img{
+    width: 425px;
+    height: 330px;
+    transform: rotate(-45deg);
+    margin: 1em -2em;
+}
+
+.text-info{
+    width: 27vw;
+    color: black !important;
+    text-align: right;
+}
+.text-info h3{
+    font-size: 38px;
+}
+.text-info hr{
+    width: 245px;
+    height: 0.2vh;
+    margin-right: 0;
+    background-color: black;
+}
+.text-info p{
+    font-size: 18px;
+}
+
+.text-info-reverse{
+    text-align: left;
+}
+.text-info-reverse hr{
+    margin-left: 0;
+}
+
+.row-reverse{
+    height: 50vh;
+    margin-top: 2em;
+
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.row-reverse .imagem-style{
+    background-color: #f9e800;
+}
